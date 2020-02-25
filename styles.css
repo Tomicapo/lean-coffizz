@@ -1,0 +1,42 @@
+
+html {
+	background-color: #333333;
+	height: 100%;
+}
+
+body {
+	background-color: transparent;
+	min-height: 100%;
+	color: #273947;
+}
+
+header .container {
+	background-color: #1db779;
+	color: #fff;
+}
+
+.container.white {
+	background-color: #fff;
+}
+
+#timer {
+	color: #4c5b67;
+	font-size: 15vw;
+	font-family: 'Source Code Pro';
+}
+
+.btn {
+	border-radius: 100px;
+}
+
+
+.ending {
+  animation: blinker 1s linear infinite;
+  font-weight: bold;
+}
+
+@keyframes blinker {
+  100% {
+    opacity: 0;
+  }
+}
