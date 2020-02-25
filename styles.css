@@ -10,25 +10,24 @@ body {
 	color: #273947;
 }
 
-header .container {
+header .container-fluid {
 	background-color: #1db779;
 	color: #fff;
 }
 
-.container.white {
+.container-fluid.white {
 	background-color: #fff;
 }
 
 #timer {
 	color: #4c5b67;
-	font-size: 15vw;
+	font-size: 25vw;
 	font-family: 'Source Code Pro';
 }
 
 .btn {
 	border-radius: 100px;
 }
-
 
 .ending {
   animation: blinker 1s linear infinite;
